@@ -38,15 +38,9 @@ This project is aimed at detecting license plates in images and videos using Ope
 
 ## Usage
 
-### For Image Input
+### For live video Input
 
-1. Run the following command:
-
-   ```bash
-   python detect_license_plate_image.py --image <image_path>
-   ```
-
-   Replace `<url>` with the url shown in the ipwebcam app.
+1.    Replace `<url>` with the url shown in the ipwebcam app.
 
 2. The detected license plates along with the OCR results will be saved in an Excel file named `detected_text.xlsx` in the project directory.
 
